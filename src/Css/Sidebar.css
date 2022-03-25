@@ -1,0 +1,38 @@
+:root{
+    --btn-color: #fff;
+    --btn-background:#50b7f5;
+}
+
+.icon{
+    padding: 10%;
+    cursor: pointer;
+}
+
+.sidebar{
+    flex: 0.2;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.sidebar > button{
+    padding:16px 72px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--btn-color);
+    background-color: var(--btn-background);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sidebar > .logout{
+    margin-top: 4%;
+    padding:16px 66px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid var(--btn-background);
+}
+
+.active{
+    font-weight: bold;
+}

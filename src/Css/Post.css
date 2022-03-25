@@ -1,0 +1,156 @@
+:root{
+    --btn-color: #fff;
+    --btn-background:#50b7f5;
+}
+
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.post > .post_avatar{
+    margin-top: 2%;
+    padding-left: 10px;
+}
+
+.post > .post_avatar > img{
+    border-radius: 50%;
+}
+
+.post_body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.post_body > .post_header{
+    width: 540px;
+}
+
+.post_body > .post_header > .more_icon{
+    position: absolute;
+    top:8%;
+    left:94%;
+    cursor: pointer;
+}
+
+.post_body > .post_header > .post_headerText{
+    display: flex;
+    align-items: center;
+}
+
+.post_body > .post_header > .post_headerText > p{
+    padding-left: 4px;
+}
+
+.post_body > img{
+    width: 540px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+.post_footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_footer > div{
+    width: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 100ms all;
+}
+
+.post_footer > div > p{
+    padding-right:5px;
+    position: relative;
+}
+
+.like:hover{
+    color:red;
+}
+
+.like > .icon{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 8px;
+}
+
+.like:hover:after{
+    content: "like";
+    width:36px;
+    height: 18px;
+    font-size: 0.8em;
+    text-align: center;
+    background-color:rgba(0,0,0,0.1);
+    border-radius: 2px;
+    position: relative;
+    top:-45%;
+    left:-24%;
+    margin-top: 3.6%;
+    color:black;
+}
+
+.comment:hover:after{
+    content: "comment";
+    width:54px;
+    height: 18px;
+    font-size: 0.8em;
+    text-align: center;
+    background-color:rgba(0,0,0,0.1);
+    border-radius: 2px;
+    position: relative;
+    top:-45%;
+    left:-78%;
+    margin-top: 3.6%;
+    color:black;
+}
+
+.retweet:hover:after{
+    content: "retweet";
+    width:54px;
+    height: 18px;
+    font-size: 0.8em;
+    text-align: center;
+    background-color:rgba(0,0,0,0.1);
+    border-radius: 2px;
+    position:relative;
+    top:-60%;
+    left:-25%;
+    margin-top: 4.2%;
+    color:black;
+}
+
+.retweet > .icon{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 12px;
+}
+
+.retweet > .icon:hover{
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50%;
+}
+
+.share:hover:after{
+    content: "share";
+    width:36px;
+    height: 18px;
+    font-size: 0.8em;
+    text-align: center;
+    background-color:rgba(0,0,0,0.1);
+    border-radius: 2px;
+    position: relative;
+    top:-50%;
+    left:-60%;
+    margin-top: 3.6%;
+    color:black;
+}

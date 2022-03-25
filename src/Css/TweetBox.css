@@ -1,0 +1,59 @@
+:root{
+    --btn-color: #fff;
+    --btn-background:#50b7f5;
+}
+
+.tweetbox{
+    margin-top: 10%;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.tweetbox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetbox_input{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tweetbox_input > img{
+    margin-top: -2%;
+    border-radius: 50%;
+}
+
+.tweetbox_input > input{
+    flex:1;
+    max-width: 37.3vw;
+    height: 4vh;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: 'Light';
+    border: none;
+    outline: none;
+}
+
+.tweetbox_input > textarea::-webkit-scrollbar{
+    display: none;
+    overflow-y: scroll;
+}
+
+.tweetbox > form > button{
+    width: 94px;
+    height: 36px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--btn-color);
+    background-color: var(--btn-background);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin:0% 85%;
+}

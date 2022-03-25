@@ -1,0 +1,24 @@
+:root{
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+.sidebar_option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 1.25em;
+    margin-top: -4%;
+}
+
+.sidebar_option:hover{
+    background-color: #e8f5fe;
+    color:var(--twitter-color);
+    border-radius: 50px;
+    transition: color 100ms all;
+}
+
+.sidebar_option > .option{
+    margin-left: 20px;
+}

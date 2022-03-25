@@ -1,0 +1,11 @@
+.Tweet{
+    flex: 0.5;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    min-width: fit-content;
+    overflow-y: scroll;
+    background-color: red;
+}
+
+.Tweet::-webkit-scrollbar{
+    display: none;
+}
